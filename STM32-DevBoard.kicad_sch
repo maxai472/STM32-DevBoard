@@ -2433,6 +2433,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -5262,211 +5424,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VLS6045EX-2R2N:VLS6045EX-2R2N"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -10.16 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "VLS6045EX-2R2N"
-				(at -10.16 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "VLS6045EX-2R2N:IND_VLS6045EX-2R2N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N/A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "4.5 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "VLS6045EX-2R2N_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid -3.81 1.2645)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.2645)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.27 1.2645)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.81 1.2645)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -6262,9 +6219,9 @@
 		)
 		(uuid "10adeb5f-fb64-4c11-836f-4a01c85f90e9")
 	)
-	(text "Output -> 3.3V @ 2.0A"
+	(text "Output -> 3.3V @ up to 2.0A"
 		(exclude_from_sim no)
-		(at 28.702 65.278 0)
+		(at 32.004 65.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6318,6 +6275,16 @@
 		)
 		(uuid "ae5c5c3e-082f-41bb-b848-b977aa45e6c4")
 	)
+	(text "Refer to AN2586 for information regarding the decoupling capacitors."
+		(exclude_from_sim no)
+		(at 50.546 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b37f2b68-cc60-40d5-8fbf-2b494591a0d8")
+	)
 	(text "Power Supply"
 		(exclude_from_sim no)
 		(at 31.496 56.896 0)
@@ -6363,6 +6330,16 @@
 			)
 		)
 		(uuid "c7d08b7e-e43d-482c-a567-ed0d49cf083b")
+	)
+	(text "Refer to AN2867"
+		(exclude_from_sim no)
+		(at 27.686 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db950c0a-5306-4a4a-9965-d2293cc1961a")
 	)
 	(text "Reverse Polarity + Buck Converter"
 		(exclude_from_sim no)
@@ -6457,12 +6434,6 @@
 		(uuid "20f6c243-da6d-4edf-afa3-e67333feb47b")
 	)
 	(junction
-		(at 140.97 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "213ffa5f-2f9f-4e9e-b87b-700e5ae35561")
-	)
-	(junction
 		(at 204.47 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6481,6 +6452,12 @@
 		(uuid "33c717ae-86c3-4638-9bb6-f4604a76fd18")
 	)
 	(junction
+		(at 69.85 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3421db82-7e87-45d6-b47b-846f2672e014")
+	)
+	(junction
 		(at 273.05 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6491,6 +6468,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "390997d5-a3ad-4f2e-beeb-3bdcda2d99bb")
+	)
+	(junction
+		(at 24.13 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e0777d2-782d-40f0-8188-5366ca609141")
 	)
 	(junction
 		(at 58.42 97.79)
@@ -6529,12 +6512,6 @@
 		(uuid "4cd8e2f1-212d-4026-8814-37b84e23804d")
 	)
 	(junction
-		(at 25.4 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52a175d9-3dd0-46f0-9f11-1bf20b18fa2e")
-	)
-	(junction
 		(at 218.44 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6551,6 +6528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5da8b833-cfe1-443b-9cda-63a00c533d5a")
+	)
+	(junction
+		(at 35.56 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6282f1f1-dcbd-4630-b1b3-546eb2f2b7e7")
 	)
 	(junction
 		(at 102.87 27.94)
@@ -6667,16 +6650,22 @@
 		(uuid "aaf00a3d-333b-44e2-82f1-4480036a9209")
 	)
 	(junction
-		(at 107.95 88.9)
+		(at 140.97 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac356038-aeb2-4f1a-8932-2977626f0f84")
+		(uuid "b2c17b66-e518-4463-a206-c0d767639e0c")
 	)
 	(junction
 		(at 224.79 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4f8ff18-129e-450e-84de-25d2a90b6418")
+	)
+	(junction
+		(at 107.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9d67bdb-ff9b-4b06-83bd-777f8ad21340")
 	)
 	(junction
 		(at 87.63 101.6)
@@ -6695,24 +6684,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c43580e1-8a4b-46ca-b0a7-f58b6ab0f67a")
-	)
-	(junction
-		(at 69.85 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce0ef251-bf1f-40f8-b3eb-283c2bef886d")
-	)
-	(junction
-		(at 46.99 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce7b7a16-171b-44c5-bb9b-bea160a1b003")
-	)
-	(junction
-		(at 35.56 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d23bc797-7e57-4d13-b123-870b1d8c7d4f")
 	)
 	(junction
 		(at 35.56 97.79)
@@ -6737,6 +6708,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e342df4b-6782-4fe9-85ea-ed23693eae1e")
+	)
+	(junction
+		(at 46.99 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ead437d9-8b85-4af0-b0b1-0d9c5b1fd3c9")
 	)
 	(junction
 		(at 224.79 27.94)
@@ -7042,6 +7019,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b049e04-bbc0-4150-b6d2-7411aedd324b")
+	)
+	(wire
+		(pts
 			(xy 245.11 120.65) (xy 245.11 123.19)
 		)
 		(stroke
@@ -7312,6 +7299,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 88.9) (xy 46.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe2111f-fdd9-45c9-8ee0-b4fe3c327a7d")
+	)
+	(wire
+		(pts
 			(xy 236.22 44.45) (xy 236.22 54.61)
 		)
 		(stroke
@@ -7322,7 +7319,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 88.9) (xy 76.2 88.9)
+			(xy 193.04 27.94) (xy 204.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f108a3-7a62-4710-af49-4bb5f9bf8767")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 69.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7399,16 +7406,6 @@
 			(type default)
 		)
 		(uuid "47626143-4743-4101-858b-af9808d60697")
-	)
-	(wire
-		(pts
-			(xy 46.99 88.9) (xy 58.42 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48dfa1c9-2e22-467c-96f4-0cc2d0407fb8")
 	)
 	(wire
 		(pts
@@ -7812,6 +7809,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 26.67) (xy 73.66 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751f21de-24a0-4d59-9cf5-d0b5bcb58511")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 85.09 88.9)
 		)
 		(stroke
@@ -7839,16 +7846,6 @@
 			(type default)
 		)
 		(uuid "76605ec4-0514-4125-8483-1b561903443e")
-	)
-	(wire
-		(pts
-			(xy 24.13 153.67) (xy 25.4 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b81349-df17-4c8b-8945-96a81dd0dc0e")
 	)
 	(wire
 		(pts
@@ -7912,16 +7909,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 121.92 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fde3ccf-b00c-44f2-9d73-07f2514399e4")
-	)
-	(wire
-		(pts
 			(xy 50.8 27.94) (xy 54.61 27.94)
 		)
 		(stroke
@@ -7929,6 +7916,16 @@
 			(type default)
 		)
 		(uuid "8007ba90-f986-4c85-948a-00c8277cf061")
+	)
+	(wire
+		(pts
+			(xy 46.99 88.9) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81eecb87-71dd-466f-bac8-5248438f9867")
 	)
 	(wire
 		(pts
@@ -7959,16 +7956,6 @@
 			(type default)
 		)
 		(uuid "84aa0523-fda9-4981-a5ea-fd50eb0e13b0")
-	)
-	(wire
-		(pts
-			(xy 35.56 88.9) (xy 46.99 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85872e66-1700-4dc0-bc67-95e91766d5a4")
 	)
 	(wire
 		(pts
@@ -8392,16 +8379,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 153.67) (xy 35.56 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b20be05a-4518-4343-bff9-f7381bb4afcf")
-	)
-	(wire
-		(pts
 			(xy 24.13 151.13) (xy 24.13 153.67)
 		)
 		(stroke
@@ -8409,6 +8386,16 @@
 			(type default)
 		)
 		(uuid "b2a01aa5-02d9-42a0-85e3-4b09c905f756")
+	)
+	(wire
+		(pts
+			(xy 69.85 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b0e525-32f0-4243-816f-6e2dcb51ecc1")
 	)
 	(wire
 		(pts
@@ -8432,7 +8419,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 27.94) (xy 176.53 27.94)
+			(xy 175.26 27.94) (xy 185.42 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8832,7 +8819,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 153.67) (xy 25.4 156.21)
+			(xy 24.13 153.67) (xy 24.13 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9042,16 +9029,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 88.9) (xy 69.85 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1642eb-13a8-4ee9-9049-d165494eba83")
-	)
-	(wire
-		(pts
 			(xy 109.22 144.78) (xy 109.22 148.59)
 		)
 		(stroke
@@ -9059,6 +9036,16 @@
 			(type default)
 		)
 		(uuid "fc5c0fd7-1fc7-4455-8fc3-513939232b8a")
+	)
+	(wire
+		(pts
+			(xy 24.13 153.67) (xy 35.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc69868a-9e63-45aa-a554-c294a7c8d72c")
 	)
 	(wire
 		(pts
@@ -9079,16 +9066,6 @@
 			(type default)
 		)
 		(uuid "fd072dd1-0d45-4ef8-b8c7-dc223c027aa2")
-	)
-	(wire
-		(pts
-			(xy 201.93 27.94) (xy 204.47 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd3eb4c5-d20f-4d43-84b0-39cb05f21d63")
 	)
 	(wire
 		(pts
@@ -9119,16 +9096,6 @@
 			(type default)
 		)
 		(uuid "fe50093e-451a-45e6-a078-7fdf47af8def")
-	)
-	(wire
-		(pts
-			(xy 73.66 22.86) (xy 73.66 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe7f69b4-6f13-4e1c-955a-bef4fae46c74")
 	)
 	(label "VIN"
 		(at 121.92 27.94 0)
@@ -9911,6 +9878,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 170.18 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "005493ca-f59f-4762-a9ba-a26691715282")
+		(property "Reference" "C10"
+			(at 170.18 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 170.18 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 166.37 36.5252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KO5NNNC"
+			(at 170.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f78074a8-23cd-4353-85e5-33ef2806c2f4")
+		)
+		(pin "1"
+			(uuid "34fa2e6f-d2f6-407a-8d47-6564485afff8")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 273.05 87.63 0)
 		(unit 1)
@@ -10095,7 +10147,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C29266"
+		(property "LCSC" "C52923"
 			(at 121.92 92.71 0)
 			(effects
 				(font
@@ -10220,7 +10272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 25.0952 96.52 0)
 			(effects
 				(font
@@ -10238,7 +10290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Bulk decoupling capacitor - tantulum (refer AN2586)"
 			(at 24.13 92.71 0)
 			(effects
 				(font
@@ -10247,7 +10299,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C91606"
+		(property "LCSC Part #" "C15850"
 			(at 24.13 92.71 0)
 			(effects
 				(font
@@ -10326,7 +10378,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC" "C1525"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KO5NNNC"
 			(at 58.42 92.71 0)
 			(effects
 				(font
@@ -10418,73 +10479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 113.03 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11bdd66f-e049-4c1a-ae33-2561ad8756af")
-		(property "Reference" "R12"
-			(at 113.03 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 113.03 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 113.03 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9725e936-70d1-4e67-9d90-bdd0aa635ba4")
-		)
-		(pin "1"
-			(uuid "35031f2a-5560-47cd-96d1-a755c3e89282")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 270.51 149.86 0)
 		(unit 1)
@@ -10545,6 +10539,82 @@
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18319516-dc33-4161-948c-f600ed878f24")
+		(property "Reference" "R12"
+			(at 113.03 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 113.03 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.03 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1091"
+			(at 113.03 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74934950-ed8a-4961-801a-6c28d8267ff2")
+		)
+		(pin "1"
+			(uuid "a76a3601-5d73-42f0-b314-d673e678d1d4")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10936,6 +11006,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 132.08 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e69dabd6-10cf-4aab-b53d-6ec46fe2039b")
 		)
@@ -11108,84 +11187,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 24.13 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31637ef4-dd05-40a8-a3d5-6e4d638e617b")
-		(property "Reference" "C2"
-			(at 28.448 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 27.686 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 25.0952 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 24.13 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 24.13 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ddc813ee-7b8d-4880-b5ff-1740a9ccfc1b")
-		)
-		(pin "1"
-			(uuid "579200b2-cb4c-4532-97e6-730432e52c83")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 116.84 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11193,8 +11194,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3340904e-5f37-48be-8932-ddaad0d061a6")
-		(property "Reference" "C10"
+		(uuid "3463bba0-e0e8-4a05-8b15-c27f9de03a9a")
+		(property "Reference" "C9"
 			(at 120.65 39.3699 0)
 			(effects
 				(font
@@ -11203,7 +11204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 120.65 41.9099 0)
 			(effects
 				(font
@@ -11230,7 +11231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Bulk decoupling capacitor - tantulum (refer AN2586)"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -11239,16 +11240,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "560fe6ce-c82d-4cc6-8427-1f92e5d4074c")
+		(property "LCSC Part #" "C15850"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "fa72d6e2-a2ca-4254-ab03-85ce2065ef59")
+			(uuid "d74ade38-3c8b-42ec-bd64-c14e897ddd1f")
+		)
+		(pin "1"
+			(uuid "8d79319c-67a8-48af-bcf9-e3f7de45d4cf")
 		)
 		(instances
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11320,6 +11330,182 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 107.95 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c75f72-fecd-4d19-9a0d-3c221426ba89")
+		(property "Reference" "C20"
+			(at 111.76 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 111.76 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 108.9152 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KO5NNNC"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "186efd32-d581-4ffa-9876-dae5cea9e859")
+		)
+		(pin "1"
+			(uuid "b8c63371-b983-4323-b13f-5ddbf56a097c")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 24.13 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1d2b87-f898-450a-bd79-16fdd5f6fe6b")
+		(property "Reference" "C2"
+			(at 27.94 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 27.94 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 25.0952 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 24.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 24.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KO5NNNC"
+			(at 24.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdd21532-2f29-4d17-818e-c07272300d4d")
+		)
+		(pin "1"
+			(uuid "c0b46d37-5e0a-4789-b8fc-90e2a82bd9b5")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 245.11 116.84 0)
 		(unit 1)
@@ -11366,6 +11552,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 245.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 245.11 116.84 0)
 			(effects
 				(font
@@ -11525,6 +11720,84 @@
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fb69d0d-eae2-4451-a4b1-62942216f5c0")
+		(property "Reference" "R1"
+			(at 53.848 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 53.848 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 57.912 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 59.69 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7226245-25ea-43a3-91c0-ee1fb1ad75d2")
+		)
+		(pin "2"
+			(uuid "b93bb0ea-b8c2-40d7-9f21-df442f26f43a")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11732,6 +12005,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 46.99 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45246b6e-8611-491d-a963-a94d60c053a1")
+		(property "Reference" "C6"
+			(at 50.8 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 50.8 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 47.9552 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KO5NNNC"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34a42505-721e-4605-b0bc-8e748cc02534")
+		)
+		(pin "1"
+			(uuid "62e0e0c2-ec9f-4767-a9c2-4418d95c6add")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 45.72 114.3 180)
 		(unit 1)
@@ -11783,7 +12144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C221841"
+		(property "LCSC Part #" "C109335"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -11984,6 +12345,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
 			(at 224.79 40.64 0)
 			(effects
 				(font
@@ -12224,73 +12594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 170.18 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53d8ae99-2f90-4ec8-85d8-120a407da681")
-		(property "Reference" "C14"
-			(at 170.18 29.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 170.688 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 173.99 34.5948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c42ec60-ef77-41fb-84b9-73424ef780c8")
-		)
-		(pin "2"
-			(uuid "c3f67d15-7a99-407f-8b84-2ea167b389ec")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 243.84 88.9 0)
 		(unit 1)
@@ -12482,85 +12785,6 @@
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c2fb01d-e613-41ab-826b-4e0477d4fae3")
-		(property "Reference" "C11"
-			(at 111.76 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 111.76 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 108.9152 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1524"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7b22f3c-ef3d-4b2d-8217-c1899acb00bb")
-		)
-		(pin "2"
-			(uuid "e4c41ed9-7606-4cee-8f88-8bbd59862634")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12767,73 +12991,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 132.08 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "640b7be3-fb7c-40f5-afe1-9bd7980ed20f")
-		(property "Reference" "R5"
-			(at 132.08 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 132.08 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 132.08 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c273ba9-92c3-4692-b25f-88f1ff11c2cf")
-		)
-		(pin "1"
-			(uuid "ce1df468-46d3-40d6-92f2-39a25352246e")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 121.92 100.33 0)
 		(unit 1)
@@ -12969,7 +13126,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 156.21 0)
+		(at 24.13 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12978,7 +13135,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c3e4cd1-ac0e-46a5-b589-f60f917b752a")
 		(property "Reference" "#PWR03"
-			(at 25.4 162.56 0)
+			(at 24.13 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12987,7 +13144,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 161.29 0)
+			(at 24.13 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12996,7 +13153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 156.21 0)
+			(at 24.13 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13005,7 +13162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 156.21 0)
+			(at 24.13 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13014,7 +13171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 156.21 0)
+			(at 24.13 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13122,75 +13279,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 236.22 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "752f5a79-fa9d-4d73-b946-1282468affc6")
-		(property "Reference" "C17"
-			(at 240.03 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 239.776 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 237.1852 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4f759af-1a8b-453a-ae3c-bf7120644686")
-		)
-		(pin "2"
-			(uuid "7b20f225-e30c-47ff-ad21-b8fa44f60a56")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 140.97 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13198,8 +13286,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7917dd9b-bca2-4df9-874b-e4127ed21f85")
-		(property "Reference" "C13"
+		(uuid "7f235cf9-df45-4dc9-ac42-4f4871b9a1c3")
+		(property "Reference" "C11"
 			(at 144.78 91.4399 0)
 			(effects
 				(font
@@ -13244,7 +13332,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C29266"
+		(property "LCSC" "C52923"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -13254,15 +13342,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "66bfd142-dcfb-4c13-8cd9-c10b4c07d0c3")
+			(uuid "2650714e-c75b-42b0-b403-b65c899ba709")
 		)
 		(pin "1"
-			(uuid "b9f26f16-9759-4867-8dc4-95fbe27e51e1")
+			(uuid "9f2c1398-0e28-49ad-8832-5e818d768d2a")
 		)
 		(instances
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13342,6 +13430,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 236.22 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ea9687-75f4-4d0a-8d69-cd0ac69aa4f8")
+		(property "Reference" "C13"
+			(at 240.03 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 240.03 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 237.1852 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 236.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e036c3e-12ec-488e-8e46-f1688284bbb0")
+		)
+		(pin "2"
+			(uuid "d12b5318-4301-41f0-a68d-4745ad6f8205")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 265.43 123.19 0)
 		(unit 1)
@@ -13401,76 +13568,6 @@
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
 					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 102.87 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "883cc7b0-4216-49af-9670-8e43a440633c")
-		(property "Reference" "C9"
-			(at 106.68 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 106.68 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 103.8352 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 102.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8df00982-9491-4a16-be1f-4a7217f0e474")
-		)
-		(pin "2"
-			(uuid "4bcf063d-5686-4ba9-8dfc-d7ca17f60e42")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13609,85 +13706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 46.99 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "909d56c3-9e1d-49e5-bb68-8a78be674191")
-		(property "Reference" "C6"
-			(at 50.8 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 50.8 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 47.9552 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7480cc1-bd5d-4e87-9c2f-b745afeb18f7")
-		)
-		(pin "1"
-			(uuid "2cb13f89-bd77-4c98-8cf2-b700886945e0")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 132.08 88.9 90)
 		(unit 1)
@@ -13739,7 +13757,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C14710"
+		(property "LCSC Part #" "C14709"
 			(at 132.08 88.9 90)
 			(effects
 				(font
@@ -13815,6 +13833,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1091"
+			(at 113.03 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a611ad21-fe32-4cf8-8513-6ee0c8bcbadc")
 		)
@@ -13831,16 +13858,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 171.45 0)
+		(lib_id "Device:C")
+		(at 35.56 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c53cc21-15c9-44ad-a10e-c0c9b19af9f6")
-		(property "Reference" "R1"
-			(at 53.848 170.434 0)
+		(fields_autoplaced yes)
+		(uuid "9a905f26-8eea-47f6-b816-f659fc848ced")
+		(property "Reference" "C4"
+			(at 39.37 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13848,8 +13876,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
-			(at 53.848 172.974 0)
+		(property "Value" "100n"
+			(at 39.37 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13857,8 +13885,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.912 171.45 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 36.5252 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13867,7 +13895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 171.45 0)
+			(at 35.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13875,8 +13903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 59.69 171.45 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13884,16 +13912,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "43926564-70cc-483e-9c57-12f4cf94393e")
+		(property "LCSC" "C1525"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KO5NNNC"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9fe2e624-d760-4df6-ad0b-93de339840bd")
+			(uuid "1b720e76-be51-42f8-a49f-03b30e798dad")
+		)
+		(pin "1"
+			(uuid "44a9537e-b67a-4838-9bee-9e50d25ca185")
 		)
 		(instances
-			(project ""
+			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "R1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13952,6 +13998,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 121.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -14185,6 +14240,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 251.46 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4e517b0-f591-4066-a1d2-9f1415bad967")
+		(property "Reference" "R14"
+			(at 254 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 254 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 253.238 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 251.46 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27fb828c-3984-4730-89d0-a35e83a4f584")
+		)
+		(pin "1"
+			(uuid "3dc95a08-7041-405d-a3bf-f19c29337e1d")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 248.92 87.63 0)
 		(unit 1)
@@ -14251,35 +14385,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 35.56 92.71 0)
+		(lib_id "Device:LED")
+		(at 243.84 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae11e656-2c79-4bf8-9e9c-55c115fe5d9f")
-		(property "Reference" "C4"
-			(at 39.37 91.4399 0)
+		(uuid "adc11b63-29d1-484f-bf13-df4dc9a2fad9")
+		(property "Reference" "D5"
+			(at 240.792 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 39.37 93.9799 0)
+		(property "Value" "LED1"
+			(at 243.078 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 36.5252 96.52 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 243.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14288,7 +14419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 92.71 0)
+			(at 243.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14296,8 +14427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 92.71 0)
+		(property "Description" "Light emitting diode"
+			(at 243.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14305,8 +14436,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 35.56 92.71 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,16 +14445,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a4140dd0-a3fb-431a-919d-f25d7081453e")
+		(property "LCSC" "C2286"
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4837021b-dc6f-41dc-ba52-50808ab1f221")
+			(uuid "fcca463b-6542-4642-b21b-113600dd2ecd")
+		)
+		(pin "2"
+			(uuid "494ffbf9-791f-455a-95a7-b18053afdefd")
 		)
 		(instances
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14397,7 +14537,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 73.66 25.4 90)
+		(at 73.66 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14405,7 +14545,7 @@
 		(dnp no)
 		(uuid "b3ea3e62-65ad-4b82-8dca-dbfff5659aae")
 		(property "Reference" "D1"
-			(at 75.438 27.178 90)
+			(at 75.438 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14414,7 +14554,7 @@
 			)
 		)
 		(property "Value" "B5819W"
-			(at 75.438 22.606 90)
+			(at 75.438 21.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14423,7 +14563,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 73.66 25.4 90)
+			(at 73.66 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14432,7 +14572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 25.4 90)
+			(at 73.66 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14441,7 +14581,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 73.66 25.4 0)
+			(at 73.66 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,8 +14589,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C64885"
-			(at 73.66 25.4 90)
+		(property "LCSC Part #" "C8598"
+			(at 73.66 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14527,7 +14667,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1545"
+		(property "LCSC" "C32949"
 			(at 45.72 147.32 0)
 			(effects
 				(font
@@ -14546,6 +14686,85 @@
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b693a4d8-61e6-46e8-8d97-59b30cd794f9")
+		(property "Reference" "C14"
+			(at 106.68 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 106.68 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 103.8352 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bulk decoupling capacitor - tantulum (refer AN2586)"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d1ecaa2-c80c-406f-b130-9103798e84c7")
+		)
+		(pin "1"
+			(uuid "505ee3d6-9ed6-4967-9cef-ca54cba38f28")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -14731,6 +14950,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 252.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 252.73 116.84 0)
 			(effects
 				(font
@@ -15322,7 +15550,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1545"
+		(property "LCSC" "C32949"
 			(at 24.13 147.32 0)
 			(effects
 				(font
@@ -15413,32 +15641,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 243.84 27.94 180)
+		(lib_id "Device:R")
+		(at 132.08 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c5af79b7-1427-447b-9001-d53558d21f30")
-		(property "Reference" "D4"
-			(at 243.586 21.844 0)
+		(uuid "c8593eec-52c6-4d47-bf77-062803d518c6")
+		(property "Reference" "R5"
+			(at 132.08 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RED"
-			(at 243.586 24.384 0)
+		(property "Value" "1K"
+			(at 132.08 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 243.84 27.94 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 132.08 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15447,7 +15675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 27.94 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,8 +15683,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 243.84 27.94 0)
+		(property "Description" "Resistor"
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15464,8 +15692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 27.94 0)
+		(property "LCSC" "C11702"
+			(at 132.08 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15474,15 +15702,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ee839d19-4c42-43d6-ad29-2cd87f1e7358")
+			(uuid "b9522d76-b187-469d-b2ec-ad30525620c1")
 		)
 		(pin "1"
-			(uuid "e26f0adb-4ed8-42af-ab08-4e64e9eeece5")
+			(uuid "9adf7b93-7fc9-4f72-b592-f87c07a72308")
 		)
 		(instances
-			(project ""
+			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "D4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15646,76 +15874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 251.46 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d02456be-25b1-4cad-a99b-59e696da519b")
-		(property "Reference" "R8"
-			(at 254 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 254 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 249.682 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 251.46 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d6b08be-9d92-4cf1-8078-e4e6647d0abb")
-		)
-		(pin "1"
-			(uuid "7a9dc03a-e215-46c7-8686-11c695033c4e")
-		)
-		(instances
-			(project ""
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 260.35 81.28 0)
 		(unit 1)
@@ -15786,76 +15944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 204.47 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5420600-383c-4cc9-bc00-93e903c3221e")
-		(property "Reference" "R7"
-			(at 207.01 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 207.01 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 202.692 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b799fc07-a282-41cc-aa48-d5bb831f2ddc")
-		)
-		(pin "1"
-			(uuid "3526dbd3-7a51-4782-8422-57890d06ad0e")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 35.56 137.16 0)
 		(unit 1)
@@ -15907,7 +15995,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C13738"
+		(property "LCSC" "C112972"
 			(at 35.56 137.16 0)
 			(effects
 				(font
@@ -15998,6 +16086,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2290"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "942db61e-8e9a-4c2e-8444-3e319233066a")
 		)
@@ -16075,6 +16172,83 @@
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 189.23 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfbe15a2-aa36-4d8d-b8d4-807cdcb1f6ff")
+		(property "Reference" "L1"
+			(at 189.23 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 189.23 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 189.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1332316"
+			(at 189.23 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38c17e09-95ea-423f-9574-aea6443e5202")
+		)
+		(pin "1"
+			(uuid "b68a4172-1fc5-4787-a13b-4db8ca572ba0")
+		)
+		(instances
+			(project ""
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -16208,194 +16382,6 @@
 			(project "STM32-DevBoard"
 				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VLS6045EX-2R2N:VLS6045EX-2R2N")
-		(at 189.23 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e353077a-9d92-49b4-b259-ae83093ea90a")
-		(property "Reference" "L1"
-			(at 189.23 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VLS6045EX-2R2N"
-			(at 189.23 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:IND_VLS6045EX-2R2N"
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.5 mm"
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK"
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35aea072-435b-407e-aff5-a3a9a746a1fc")
-		)
-		(pin "1"
-			(uuid "d753bd2f-e79e-406a-9dcf-ef8b09551a31")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 69.85 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4cae9ba-b246-4601-825a-5f4d880fa4ff")
-		(property "Reference" "C8"
-			(at 73.66 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 73.66 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 70.8152 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 69.85 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 69.85 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40946ca6-3615-4bdb-a641-5505043698c6")
-		)
-		(pin "1"
-			(uuid "14d4090d-5a1a-42ee-bc1c-477c4a971dd0")
-		)
-		(instances
-			(project "STM32-DevBoard"
-				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16545,6 +16531,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 69.85 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed3be8aa-1d98-4859-a73b-25f1c33c70ac")
+		(property "Reference" "C8"
+			(at 73.66 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 73.66 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 70.8152 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CL05B104KO5NNNC"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e70c975e-cc8f-4971-aa0c-47b6b609cb97")
+		)
+		(pin "1"
+			(uuid "fe6a3172-7130-4a3c-9ae7-1811182c0922")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 204.47 35.56 0)
 		(unit 1)
@@ -16660,6 +16734,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 67.31 171.45 0)
 			(effects
 				(font
@@ -16966,6 +17049,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 204.47 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f500960b-70e9-4fbd-a447-e2c555df7662")
+		(property "Reference" "R8"
+			(at 207.264 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.772 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 202.692 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 204.47 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b34bcc9b-f991-4656-9a98-8a6dd48e076c")
+		)
+		(pin "2"
+			(uuid "422a6648-6240-4af6-9e95-be314268c668")
+		)
+		(instances
+			(project "STM32-DevBoard"
+				(path "/79f33576-3a34-4b71-8b1f-f5900a9da4a8"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 185.42 90.17 0)
 		(mirror y)
@@ -17169,15 +17328,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15127"
-			(at 64.77 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "AOS"
 			(at 64.77 30.48 90)
 			(effects
@@ -17196,16 +17346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" ""
-			(at 64.77 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" ""
+		(property "LCSC Part #" "C15127"
 			(at 64.77 30.48 90)
 			(effects
 				(font
