@@ -6602,6 +6602,12 @@
 		(uuid "82f11be8-e7d7-42d1-9cac-de17b7272860")
 	)
 	(junction
+		(at 110.49 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895d2c1e-1c3d-4a79-b120-cb2b0ba8bfed")
+	)
+	(junction
 		(at 246.38 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6660,12 +6666,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4f8ff18-129e-450e-84de-25d2a90b6418")
-	)
-	(junction
-		(at 107.95 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9d67bdb-ff9b-4b06-83bd-777f8ad21340")
 	)
 	(junction
 		(at 87.63 101.6)
@@ -7016,16 +7016,6 @@
 			(type default)
 		)
 		(uuid "19ec259d-15e0-49bb-afb5-6af67ee9ef42")
-	)
-	(wire
-		(pts
-			(xy 107.95 88.9) (xy 121.92 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b049e04-bbc0-4150-b6d2-7411aedd324b")
 	)
 	(wire
 		(pts
@@ -7419,7 +7409,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 107.95 97.79)
+			(xy 121.92 97.79) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7586,16 +7576,6 @@
 			(type default)
 		)
 		(uuid "55a21dc8-e219-478b-aa6c-354080167f98")
-	)
-	(wire
-		(pts
-			(xy 107.95 97.79) (xy 107.95 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e8c225-02d1-4bcd-968e-7926afc49f8f")
 	)
 	(wire
 		(pts
@@ -7866,6 +7846,16 @@
 			(type default)
 		)
 		(uuid "7a530ae8-2c09-4a36-be85-4ee6d5142959")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7914b5-b8f4-4ecb-bae2-07f8ce1c1f56")
 	)
 	(wire
 		(pts
@@ -8229,7 +8219,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 88.9) (xy 107.95 88.9)
+			(xy 102.87 88.9) (xy 110.49 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8396,6 +8386,16 @@
 			(type default)
 		)
 		(uuid "b2b0e525-32f0-4243-816f-6e2dcb51ecc1")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.17) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3dd37bc-3262-4584-b01d-6d3313dc1f9b")
 	)
 	(wire
 		(pts
@@ -11331,7 +11331,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 92.71 0)
+		(at 110.49 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11340,7 +11340,7 @@
 		(fields_autoplaced yes)
 		(uuid "39c75f72-fecd-4d19-9a0d-3c221426ba89")
 		(property "Reference" "C10"
-			(at 111.76 91.4399 0)
+			(at 114.3 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,7 +11349,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 111.76 93.9799 0)
+			(at 114.3 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11358,7 +11358,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 108.9152 96.52 0)
+			(at 111.4552 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11367,7 +11367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 92.71 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +11376,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 92.71 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,7 +11385,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 107.95 92.71 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,7 +11394,7 @@
 			)
 		)
 		(property "Manufacturer Part #" "CL05B104KO5NNNC"
-			(at 107.95 92.71 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +13217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical"
 			(at 165.1 148.59 0)
 			(effects
 				(font
@@ -16212,7 +16212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:IND_VLS6045EX-2R2N"
 			(at 189.23 27.94 0)
 			(effects
 				(font

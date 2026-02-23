@@ -1,0 +1,108 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SRN6045TA-2R2Y" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "L" (id 0) (at -5.08 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SRN6045TA-2R2Y" (id 1) (at -5.08 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SRN6045TA-2R2Y:IND_SRN6045TA-2R2Y" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "BOURNS" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SRN6045TA-2R2Y_0_0"
+      (polyline
+        (pts (xy -5.08 0.0) (xy -7.62 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 0.0) (xy 7.62 0.0)) (stroke (width 0.254))
+      )
+      (arc (start -2.54 0.0) (mid -3.81 1.27) (end -5.08 0.0)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 0.0 0.0) (mid -1.27 1.27) (end -2.54 0.0)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 2.54 0.0) (mid 1.27 1.27) (end 0.0 0.0)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 5.08 0.0) (mid 3.81 1.27) (end 2.54 0.0)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -4.826 2.794) (xy -4.064 2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.826 2.286) (xy -4.064 2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.556 2.794) (xy -2.794 2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.556 2.286) (xy -2.794 2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.286 2.794) (xy -1.524 2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.286 2.286) (xy -1.524 2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.016 2.794) (xy -0.254 2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.016 2.286) (xy -0.254 2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.254 2.794) (xy 1.016 2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.254 2.286) (xy 1.016 2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.524 2.794) (xy 2.286 2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.524 2.286) (xy 2.286 2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.794 2.794) (xy 3.556 2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.794 2.286) (xy 3.556 2.286)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.064 2.794) (xy 4.826 2.794)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.064 2.286) (xy 4.826 2.286)) (stroke (width 0.1524))
+      )
+      (pin passive line (at -12.7 0.0 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
