@@ -9133,6 +9133,16 @@
 		)
 		(uuid "fe50093e-451a-45e6-a078-7fdf47af8def")
 	)
+	(label "USBF_D+"
+		(at 262.89 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06aa13ad-325c-4ef3-b904-d925281beee9")
+	)
 	(label "CC1_A"
 		(at 242.57 109.22 0)
 		(effects
@@ -9283,16 +9293,6 @@
 		)
 		(uuid "96078af0-5337-4008-a4c5-9db04a403f2a")
 	)
-	(label "USB_D-"
-		(at 262.89 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ba730f2-7be6-4ea9-a339-45af78479ffc")
-	)
 	(label "HSE_IN"
 		(at 64.77 119.38 0)
 		(effects
@@ -9403,6 +9403,16 @@
 		)
 		(uuid "e26a9ea9-27ee-4d01-a116-7474cc1935f3")
 	)
+	(label "USBF_D-"
+		(at 262.89 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2ac5dce-385e-4999-83f5-38b5bd8d1bd1")
+	)
 	(label "VFB_OUT"
 		(at 165.1 43.18 0)
 		(effects
@@ -9412,16 +9422,6 @@
 			(justify left bottom)
 		)
 		(uuid "ec762de1-1e85-4777-a10d-03d5671a8765")
-	)
-	(label "USB_D+"
-		(at 262.89 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff0dfc1c-86d3-4e07-8fe9-9d8de67eb221")
 	)
 	(global_label "GPIO3"
 		(shape bidirectional)
@@ -10140,6 +10140,68 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 24.13 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d77e71d-bc14-4ac3-8491-89125e1770ff")
+		(property "Netclass" "Power"
+			(at 24.8285 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 105.41 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3681d54c-ab28-4e07-a383-190f3c222713")
+		(property "Netclass" "GND"
+			(at 106.1085 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -55.88 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)

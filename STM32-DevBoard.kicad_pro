@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -63,7 +63,52 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|162190000|93550000|8fa46415-b50d-4359-9afc-edf9789c68a5|f1802806-58b8-420d-9762-aa23e1324bd4",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|94350000|f1802806-58b8-420d-9762-aa23e1324bd4|28136007-c2c9-41df-8600-521909679232",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|95050000|1541da43-0adb-4709-a262-c0f757c4a67e|28136007-c2c9-41df-8600-521909679232",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|95350000|1541da43-0adb-4709-a262-c0f757c4a67e|e0d294e1-2e74-4b17-b5ec-0c7c2ec87055",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|96050000|f1915be8-7923-42fb-b2a1-04e5faa6650e|e0d294e1-2e74-4b17-b5ec-0c7c2ec87055",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|96550000|a6618720-8ef0-440b-a05b-ef7b1005234a|f1915be8-7923-42fb-b2a1-04e5faa6650e",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|96850000|a6618720-8ef0-440b-a05b-ef7b1005234a|100e78e9-98e0-4ec5-9d7b-faaedf5de1d5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|97550000|0083863a-f774-4c5f-bd21-9fa64c55ea73|100e78e9-98e0-4ec5-9d7b-faaedf5de1d5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|97850000|0083863a-f774-4c5f-bd21-9fa64c55ea73|e69f3202-30d8-4eb3-ac56-c8a2b90ede50",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|98550000|4ecf6304-f64e-4f59-9ccb-1032ef46ea31|e69f3202-30d8-4eb3-ac56-c8a2b90ede50",
+          ""
+        ],
+        [
+          "solder_mask_bridge|162190000|99350000|9f02ece9-f961-4985-a055-b7ae7e7c8c3f|4ecf6304-f64e-4f59-9ccb-1032ef46ea31",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -499,14 +544,88 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 10, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "HSE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 123, 2)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 10, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 6)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(8, 201, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(120, 255, 0)",
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "+3.3V": [
+        "Power"
+      ],
+      "GND": [
+        "GND"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "UART",
+        "pattern": "/*UART*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/GND"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/*USB*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
